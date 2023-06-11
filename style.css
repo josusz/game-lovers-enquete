@@ -6,6 +6,39 @@ body{
     background-color: #CCCCCC;
     color: #FFFFFF;
 }
+form{
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(#531A5C, #220D25);
+    padding: 0.25rem;
+}
+h1{
+    font-size: 1.80rem;
+}
+p{
+    font-size: 0.80rem;
+}
+h2{
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+input{
+    margin: 0.5rem;
+}
+object{
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+}
+footer{
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+}
 .container{
     border: none;
     border-radius: 8px;
@@ -17,9 +50,27 @@ body{
     color: #FECD23;
 }
 .header-description{
-    margin-top: 2.25rem;
+    margin: 2rem;
 }
 .cards{
     display: flex;
     justify-content: space-around;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
