@@ -68,6 +68,8 @@ footer{
     border-radius: 8px;
     background-image: linear-gradient(#220D25, #531A5C);
     padding: 1.5rem;
+    max-width: 650px;
+    margin: auto;
 }
 .header-title{
     margin-top: -1.5rem;
