@@ -1,6 +1,6 @@
 body{
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #CCCCCC;
@@ -10,12 +10,16 @@ body{
     border: none;
     border-radius: 8px;
     background-image: linear-gradient(#220D25, #531A5C);
-    padding: 24px;
+    padding: 1.5rem;
 }
-.title{
-    margin-top: -24px;
+.header-title{
+    margin-top: -1.5rem;
     color: #FECD23;
 }
-.header{
-    margin-top: 36px;
+.header-description{
+    margin-top: 2.25rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
 }
